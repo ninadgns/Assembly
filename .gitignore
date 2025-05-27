@@ -1,0 +1,38 @@
+# Keil MDK-ARM specific
+*.o
+*.d
+*.crf
+*.dbgconf
+*.dep
+*.htm
+*.lnp
+*.sct
+*.Bak
+*.axf
+*.lst
+*.map
+Objects/
+Listings/
+DebugConfig/
+
+# Compiled binaries
+*.bin
+*.hex
+*.elf
+
+# Temporary files
+*.bak
+*.tmp
+*.log
+~*
+
+# Editor-specific
+*.uvguix.*
+*.uvgui.*
+*.scvd
+*.uvoptx.bak
+*.uvprojx.bak
+
+# System files
+.DS_Store
+Thumbs.db

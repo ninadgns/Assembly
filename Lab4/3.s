@@ -6,7 +6,7 @@ bcd_number  DCB     0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09
 bcd_length  EQU     ($ - bcd_number)
 hex_result  SPACE   4                       ; 32-bit result (can hold up to 9 BCD digits)
 
-    AREA    |.text|, CODE, READONLY
+    AREA    |.text|, CODE, READONLY 
     EXPORT  __main
     ENTRY
 
